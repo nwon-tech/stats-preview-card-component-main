@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    text-align: center;
+}
+
+.container {
+    max-height: 100%;
+    margin: 0%;
+}
+
+.row {
+    background-color: hsl(244, 38%, 16%);
+    height: fit-content;
+}
+
+#main-heading {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+#main-paragraph{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.col {
+    color: hsla(0, 0%, 100%, 0.6);
+    border: 10px brown;
+}
+
+#img-desktop {
+    height: auto;
+    width: 100%;
+}
+
+#img-mobile {
+    height: auto;
+    width: 100%;
+}
