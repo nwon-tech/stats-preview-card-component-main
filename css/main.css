@@ -6,14 +6,13 @@ body {
 
 .container {
     max-height: 100%;
-    margin: 0%;
     border: 4px solid #A40909;
 }
 
 .row {
     background-color: hsl(244, 38%, 16%);
     height: fit-content;
-    border: 4px dotted #1C6EA4;
+    padding: 0;
 }
 
 #main-heading {
@@ -30,7 +29,8 @@ body {
 
 .col {
     color: hsla(0, 0%, 100%, 0.6);
-    border: 4px solid rgb(255, 238, 0);
+    margin: 0;
+    padding: 0;
 }
 
 #img-desktop {
