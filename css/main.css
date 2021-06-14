@@ -1,18 +1,23 @@
 body {
     background-color: hsl(233, 47%, 7%);
-    justify-content: center;
-    align-items: center;
 }
 
-.container {
-    max-height: 100%;
-    border: 4px solid #A40909;
+.my-card {
+    margin: auto;
+}
+
+.my-header {
+    border: 4px dotted #ecfd01;
+    padding: auto;
+    margin-top: auto;
 }
 
 .row {
     background-color: hsl(244, 38%, 16%);
-    height: fit-content;
+    border: gold dotted 3px;
     padding: 0;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
 #main-heading {
@@ -27,10 +32,22 @@ body {
     font-weight: 400;
 }
 
-.col {
+/* .col {
     color: hsla(0, 0%, 100%, 0.6);
-    margin: 0;
-    padding: 0;
+    border: greenyellow dotted 3px;
+    padding: 0%;
+} */
+
+.right-col {
+    color: hsla(0, 0%, 100%, 0.6);
+    border: rgb(136, 136, 136) dotted 3px;
+    padding: 0%;
+}
+
+.left-col {
+    height: 100px;
+    color: hsla(0, 0%, 100%, 0.6);
+    border: rgb(0, 140, 255) dotted 3px;
 }
 
 #img-desktop {
